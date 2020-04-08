@@ -61,17 +61,18 @@
         color: #333;
     }
 </style>
+<html>
+<head>
 <?php wp_head(); ?>
 </head>
-    <body <?php body_class(); ?>>
+    <body> <?php body_class(); ?>>
 <?php blank_custom_logo(); ?>
 
-
-</div><!-- #page -->
 <?php wp_footer(); ?>
 
 <?php 
-    //Tilføjelse af the_content for at muliggøre Elementor Edit
+    //Tilføjelse af the_content for at muliggøre Elementor Edit og Elementor Pro editor
 the_content(); ?> 
+        
 
 </body></html>
