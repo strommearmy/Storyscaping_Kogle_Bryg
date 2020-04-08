@@ -62,17 +62,8 @@
     }
 </style>
 <?php wp_head(); ?>
-</head><body <?php body_class(); ?>><div id="page">
-
-<div class="site-title"><div class="site-title-bg">
-<h1><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
-<?php
-$description = get_bloginfo( 'description', 'display' );
-if ( $description || is_customize_preview() ) :
-?>
-	<p class="site-description"><?php echo esc_html( $description ); ?></p>
-<?php endif; ?>
-</div></div>
+</head>
+    <body <?php body_class(); ?>>
 <?php blank_custom_logo(); ?>
 
 
