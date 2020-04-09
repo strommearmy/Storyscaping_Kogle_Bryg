@@ -74,6 +74,27 @@
 		box-shadow: 14px 14px 31px #857767, 
              	-14px -14px 31px #ffedcb;
 	}
+	
+	#box-up-one, #box-up-two {
+		border-radius: 29px;
+		background: linear-gradient(145deg, #ffffff, #e6e6e6);
+		box-shadow:  14px 14px 38px #ababab, 
+             		-14px -14px 38px #ffffff;
+	}
+	
+	#box-down-one, #box-down-two {
+		border-radius: 29px;
+		background: linear-gradient(145deg, #ffffff, #e6e6e6);
+		box-shadow:  14px 14px 38px #ababab, 
+            		 -14px -14px 38px #ffffff;
+	}
+	
+	#header-button {
+		border-radius: 29px;
+		background: linear-gradient(145deg, #ffd57f, #e6b36b);
+		box-shadow:  14px 14px 38px #ab8550, 
+             		-14px -14px 38px #ffff9e;
+	}
     
 </style>
 <html>
