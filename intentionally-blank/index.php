@@ -116,6 +116,16 @@
 		box-shadow: 14px 14px 31px #857767, 
              	-14px -14px 31px #ffedcb;
 	}
+	#box-down-three,
+   	#box-down-four,
+    	#box-down-five,
+   	#box-down-six 
+	{ 
+	border-radius: 50px;
+	background: linear-gradient(145deg, #ffffff, #e6e6e6);
+	box-shadow:  14px 14px 28px #a1a1a1, 
+        -14px -14px 28px #ffffff;
+    }
     
 </style>
 <html>
