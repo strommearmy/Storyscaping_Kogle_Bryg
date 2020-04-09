@@ -39,9 +39,30 @@ Text Domain: intentionally-blank
             		 -14px -14px 38px #ffffff;
 	}
 	
-	#header-button {
+	#button-two-two {
 		border-radius: 29px;
 		background: linear-gradient(145deg, #ffd57f, #e6b36b);
 		box-shadow:  14px 14px 38px #ab8550, 
-             		-14px -14px 38px #ffff9e;
+					 -14px -14px 38px #ffff9e;;
+	}
+	
+	#glass-beer {
+		border-radius: 50%;
+		background: linear-gradient(145deg, #e6e6e6, #ffffff);
+		box-shadow:  14px 14px 38px #ababab, 
+					 -14px -14px 38px #ffffff;
+	}
+	
+	#button-three {
+		border-radius: 50px;
+		background: linear-gradient(145deg, #cad6bf, #f0ffe3);
+		box-shadow:  14px 14px 38px #969f8e, 
+					 -14px -14px 38px #ffffff;
+	}
+	
+	#button-four {
+		border-radius: 74px;
+		background: linear-gradient(145deg, #b3a08a, #d5bea4);
+		box-shadow: 14px 14px 31px #857767, 
+             	-14px -14px 31px #ffedcb;
 	}
