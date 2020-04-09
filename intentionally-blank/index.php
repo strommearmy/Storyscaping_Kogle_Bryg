@@ -89,13 +89,6 @@
             		 -14px -14px 38px #ffffff;
 	}
 	
-	#button-two-two {
-		border-radius: 29px;
-		background: linear-gradient(145deg, #ffd57f, #e6b36b);
-		box-shadow:  14px 14px 38px #ab8550, 
-					 -14px -14px 38px #ffff9e;;
-	}
-	
 	#glass-beer {
 		border-radius: 50%;
 		background: linear-gradient(145deg, #e6e6e6, #ffffff);
